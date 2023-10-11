@@ -1,0 +1,108 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.edu {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-left: 3px solid black;
+}
+.label {
+    text-align: center;
+    width: 150px;
+    display: inline-block;
+    background-color:floralwhite;
+    color: black;
+    font-weight: 700;
+    border-radius: 4px;
+    font-size: 0.84615385rem;
+    margin: 0.25rem 0 0.25rem 0.5rem;
+    padding: 3px 10px;
+  }
+
+.edu-info {
+    background-color:darksalmon;
+}
+
+.edu > p {
+    text-align: center;
+    width: 500px;
+}
+
+.s2 {
+    background-color:darkkhaki;
+}
+
+#certify {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin: 10px;
+    width: 100%;
+}
+
+figcaption {
+    text-align: center;
+}
+
+figure > a > img {
+    transition: transform 0.3s ease;
+}
+
+figure > a > img:hover{
+    transform: scale(0.9);
+}
+
+.cer-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width:635px) and (min-width:550px) {
+    .edu span {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:550px) {
+    figure > a > img {
+        width: 400px;
+    }
+    .edu {
+        gap: 5px;
+        padding-right: 20px;
+    }
+    .edu p {
+        font-size: 12px;
+    }
+    text {
+        font-size: 11.5px;
+    }
+    .edu span {
+        font-size: 10px;
+    }
+    #logo1 {
+        width: 70px;
+        height: 50px;
+    }
+    #logo2 { 
+        width: 50px;
+    }
+}

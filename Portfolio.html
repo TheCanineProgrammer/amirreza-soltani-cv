@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="A website for introducing myself better">
+        <meta name="keywords" content="CV, Cerftificates">
+        <meta name="author" content="The Canine Programmer">
+        <link rel="icon" type="image/x-icon" href="./Images/Logos/CV.png">
+        <link href="./Styles/style.css" rel="stylesheet">
+        <link href="./Styles/style2.css" rel="stylesheet">
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <title>Amirreza Soltani - CV</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="text-justify leading-loose">
+        <nav>
+            <ul>
+                <li class="text-[#000]">Amirreza Soltani</li>
+            </ul>
+            <ul id="navbar" class="p-[10px]">
+                <li class="text-[#000] hover:text-[#fff] hover:underline"><a href="./index.html">About Me</a></li>
+                <li class="text-[#000] hover:text-[#fff] hover:underline"><a href="./Portfolio.html">Experiences</a></li>
+                <li class="text-[#000] hover:text-[#fff] hover:underline"><a href="./Contact.html">Contact Me</a></li>
+            </ul>
+            <ul class="responsive">
+                <li class="text-[#000] hover:text-[#fff] hover:underline"><i class="fa fa-navicon"></i></li>
+            </ul>
+        </nav>
+        <section class="edu-info p-[10px] border-y-[2px] border-y-[#000]">
+            <h1 class="text-center">Education</h1>
+            <p><i class="fa fa-university">&nbsp;&nbsp;</i>Elementary School:</p>
+            <div class="edu">
+                <img style="border-radius: 50%;" id="logo1" src="./Images/Logos/drhashtroudi.png" draggable="false" alt="Dr.Hashtroudi School" width="70px" height="50px">
+                <p class="hover:underline"><a href="https://www.drhashtroudi.ir/" target="_blank">Dr. Hashtroudi Educational Complex</a></p>
+                <span class="label">GPA: 4</span>
+                <svg width="100" height="200" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Vertical Dashed Line -->
+                    <line x1="50%" y1="20" x2="50%" y2="90%" stroke="black" stroke-width="2"/>
+                    
+                    <!-- Start Year Label -->
+                    <text x="50%" y="15" text-anchor="middle">2014</text>
+                    
+                    <!-- End Year Label -->
+                    <text x="50%" y="195" text-anchor="middle">2020</text>
+                </svg>
+            </div>
+            <p><i class="fa fa-university">&nbsp;&nbsp;</i>Middle School:</p>
+            <div class="edu">
+                <img src="./Images/Logos/logo.png" id="logo2" draggable="false" alt="Rouzbeh Highschool" width="70px" height="50px">
+                <p class="hover:underline"><a href="https://rouzbeh.info/" target="_blank">Rouzbeh Highschool</a></p>
+                <span class="label">GPA: 4</span>
+                <svg width="100" height="200" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Vertical Dashed Line -->
+                    <line x1="50%" y1="20" x2="50%" y2="90%" stroke="black" stroke-width="2"/>
+                    
+                    <!-- Start Year Label -->
+                    <text x="50%" y="15" text-anchor="middle">2021</text>
+                    
+                    <!-- End Year Label -->
+                    <text x="50%" y="195" text-anchor="middle">2023</text>
+                </svg>
+            </div>
+        </section>
+        <section class="s2">
+            <h1 class="text-center py-[10px]"><i class="fa fa-trophy">&nbsp;</i>Certificates</h1>
+            <div id = "certify" class="py-[50px] px-[50px]">
+                <figure class="cer-image">
+                    <figcaption class="text-center">Irancell Labs Artificial Intelligence Hackathon</figcaption>
+                    <a href="https://quera.org/certificate/CxhfqVKU/" target="_blank"><img src="./Images/Certificates/AI_Certificate.jpg" alt="AI Hackathon Certificate" width="500px"/></a>
+                </figure>
+                <figure class="cer-image">
+                    <figcaption class="text-center">Project-Oriented Course In Front-End Web Development</figcaption>
+                    <a href="https://quera.org/certificate/kvdFVUWD/" target="_blank"><img src="./Images/Certificates/Front-End.jpg" alt="Front-End Certificate" width="500px"/></a>
+                </figure>
+            </div>
+        </section>
+        <script src="./JS/navbar.js"></script>
+    </body>
+</html>

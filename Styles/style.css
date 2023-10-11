@@ -1,0 +1,374 @@
+@font-face {
+    font-family: Merienda;
+    src: url("../Fonts/Merienda-Regular.ttf");
+}
+body{
+    background-color: antiquewhite;
+    font-family: Merienda;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#Me {
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: #E27;
+    float: right;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+figure  {
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.s7 {
+    background-color:#b6d6d2;
+}
+.s7 > h2 {
+    text-align: center;
+}
+.s7 > div > .row > span {
+    font-size: 12px;
+}
+
+article > ul {
+    list-style:circle;
+    margin-left: 50px;
+}
+
+nav {
+    background-color:cornflowerblue;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+nav > ul {
+    list-style: none;
+    background-color:cornflowerblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 0;
+    align-items: center;
+    overflow: hidden;
+}
+
+.add {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.other-s {
+    background-color:#659ad2;
+}
+
+.item {
+    border: 2px solid red;
+    background-color: lightcoral;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 5px;
+}
+
+nav > ul > li {
+    text-decoration: none;
+    padding-right: 10px;
+}
+#navbar > li:hover{
+    background-color:#E27;
+}
+
+.responsive {
+    position: absolute;
+    top: 0;
+    right: 2px;
+    display: none;
+
+}
+
+.responsive li:hover {
+    cursor: pointer;
+    background-color:#E27;
+}
+
+.s1{
+    background-color: aquamarine;
+}
+.s2{
+    background-color:coral;
+}
+.art1 {
+    background-color: aqua;
+}
+
+footer{
+    background-color: darkorange;
+}
+.s4 {
+    background-color: lawngreen;
+}
+#d_foot {
+    background-color:gray;
+}
+.s0{
+    background-color: crimson;
+}
+li > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    height: 200px;
+    width: 210px;
+}
+#tb1 td img {
+    border: 5px solid #1f65b7;
+    filter: sepia(50%);
+    border-radius: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+table {
+    color: white;
+    border-collapse: collapse;
+    margin-right: auto;
+    padding: 10px;
+}
+thead, tbody {
+    background-color:#41B3A3;
+}
+td, th {
+    border: 4px solid #004482;
+
+}
+table caption{
+    color: black;
+}
+p::first-letter{
+    text-transform: uppercase;
+}
+section{
+    padding-bottom: 10px;
+}
+.flex1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+    text-align: center;
+}
+.s5 {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 100px;
+    align-items:stretch;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+li{
+    padding-left: 10px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 50px;
+}
+.tech .row span {
+    width: 70px;
+    text-align: center;
+}
+.progress {
+    background-color: gray;
+    border-radius: 5px;
+    width: 100%;
+    height: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.bar {
+    display: flex;
+    justify-content: end;
+    align-items:center;
+    flex-wrap: nowrap;
+    background-color: gray;
+    height: 25px;
+    border-radius: 3px;
+}
+.details{
+    font-size: 20px;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    height: inherit;
+    margin-right: 4px;
+}
+.circle-group {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 100px;
+    gap: 10px;
+}
+.languages .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.languages .row span {
+    width: 10px;
+}
+.other .fav .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.circle {
+    background-color: gray;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.languages {
+    text-align: center;
+    background-color: #ffcfaf;
+    grid-row: 2;
+    grid-column: 1;
+}
+.fav {
+    text-align: center;
+    background-color: #0c99a3;
+    grid-row: 2;
+    grid-column: 2;
+}
+.title {
+    background-color: #5cdb94;
+    grid-column: 1/ span 2;
+    grid-row: 1;
+    text-align: center;
+}
+.circle.green {
+    background-color:#41B3A3;
+}
+.circle.pink {
+    background-color: #C38D9E;
+}
+.circle.red {
+    background-color: #E27;
+}
+.other {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.s6 {
+    background-color: #f9c2c8;
+}
+.s6 > h2 {
+    text-align: center;
+}
+.circle-group {
+    transition: width 2s;
+    transition: height 2s;
+}
+.fav .row span {
+    transition: font-size 1s;
+}
+.fav .row span:hover{
+    font-size: 20px;
+}
+.circle-group .circle:hover {
+    height: 24px;
+    width:24px;
+}
+
+.s1 h1 {
+    font-size: 50px;
+}
+
+@media screen and (max-width:550px) {
+    .responsive {
+        display: flex;
+    }
+    #navbar {
+        display: none;
+    }
+    nav {
+        flex-direction: column;
+    }
+    #navbar {
+        flex-direction: column;
+    }
+
+    #navbar.active {
+        display: flex;
+    }
+    #navbar li {
+        width: 100%;
+    }
+    
+    .s1 h1{
+        font-size: 35px;
+    }
+    .other {
+        grid-template-columns: 100% 100%;
+    }
+    .languages, .fav,  .title{
+        grid-column: 1;
+    }
+    .languages {
+        grid-row: 2;
+    }
+    .fav {
+        grid-row: 3;
+    }
+    nav > ul {
+        padding: 10px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    nav > ul > li {
+        gap: 10px;
+    }
+    nav > ul > li {
+        margin: 0;
+        text-align: center;
+    }
+    img {
+        width: 100px;
+        height: 500px;
+    }
+    .s1 {
+        font-size: 11px;
+    }
+    .s5 {
+        gap: 50px;
+    }
+}
