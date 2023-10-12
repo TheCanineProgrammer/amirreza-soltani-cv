@@ -314,6 +314,10 @@ li{
 }
 
 @media screen and (max-width:550px) {
+    .progress, .bar {
+        width: 100%; /* Adjust width for smaller screens */
+    }
+
     .responsive {
         display: flex;
     }
