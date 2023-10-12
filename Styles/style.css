@@ -15,6 +15,7 @@ body{
 }
 
 #Me {
+    overflow-y: hidden;
     border-width: 5px;
     border-radius: 10px;
     border-color: #E27;
