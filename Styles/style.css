@@ -15,13 +15,18 @@ body{
 }
 
 #Me {
-    overflow-y: hidden;
+    max-width: 700px;
     border-width: 5px;
     border-radius: 10px;
     border-color: #E27;
     float: right;
-    margin-left: 40px;
+    margin-left: 20px;
     margin-right: 20px;
+}
+
+.container {
+    display: inline;
+    overflow: hidden;
 }
 
 figure  {
