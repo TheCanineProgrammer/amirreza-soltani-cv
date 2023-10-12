@@ -228,7 +228,7 @@ li{
     display: flex;
     align-items: center;
     height: inherit;
-    margin-right: 4px;
+    padding-right: 0.25%;
 }
 .circle-group {
     display: flex;
@@ -314,9 +314,6 @@ li{
 }
 
 @media screen and (max-width:550px) {
-    .progress, .bar {
-        width: 100%; /* Adjust width for smaller screens */
-    }
 
     .responsive {
         display: flex;
