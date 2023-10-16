@@ -380,3 +380,9 @@ li{
         gap: 50px;
     }
 }
+
+@media screen and (max-width:320px) {
+    .about {
+        font-size: 10px;
+    }
+}
